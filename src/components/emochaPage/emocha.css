@@ -1,0 +1,173 @@
+#landingImage {
+    border-radius: 2rem;
+    margin: 0rem 2rem;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.subheadingGrey {
+    color: #969696;
+    font-size: 0.8rem;
+    margin: 1.75rem auto 0.75rem auto;
+}
+
+.greyText {
+    color: #969696;
+    font-size: 0.94rem;
+}
+
+#pageTitle {
+    text-align: center;
+    margin: 6.5rem 20rem 3rem 20rem;
+    padding: 2rem 18rem;
+}
+
+#quickStats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 3rem 20rem 6rem 20rem;
+}
+
+#briefOverview {
+    margin: 6rem 20rem 0rem 20rem;
+}
+
+.highlightedBackground {
+    background-color: #F4F4F4;
+    padding: 8rem 20rem;
+}
+
+.columnBoxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+
+.leftColumnTitle {
+    flex: 0 0 30%;
+}
+
+.callOut, .blackCallOut {
+    padding-bottom: 1.5rem;
+}
+
+.blackCallOut {
+    color: #202020;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#boxMargins {
+    margin: 7rem 20rem 7rem 20rem;
+}
+
+.emochaContainer {
+    margin: 7.5rem 20rem;
+    flex-direction: column;
+}
+
+#blueBg {
+    background-color: #1460F8;
+}
+
+#blueBg p {
+    color: #F4F4F4;
+}
+
+#lastSummary {
+    margin-top: 3rem;
+}
+
+/* media viewport responsiveness */
+@media only screen and (max-width: 767px) {
+    #pageTitle {
+        width: 90%;
+        margin: 5rem 1rem 2rem 1rem;
+        padding: 1rem 0rem;
+    }
+
+    #landingImage {
+        margin: 0rem 1rem;
+    }
+
+    #briefOverview, #quickStats, .emochaContainer {
+        margin: 5rem 1rem;
+    }
+
+    #quickStats {
+        gap: 1.75rem;
+    }
+
+    .columnBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .highlightedBackground {
+        background-color: #F4F4F4;
+        padding: 5rem 1rem;
+    }
+
+    .callOut {
+        padding-bottom: 0.75rem;
+    }
+
+    .leftColumnTitle {
+        flex: 0 0 30%;
+    }
+
+    #boxMargins {
+        margin: 5rem 1rem 7rem 1rem;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #pageTitle {
+        width: 90%;
+        margin: 6rem 3rem 2rem 3rem;
+        padding: 1rem 0rem;
+    }
+
+    #landingImage {
+        margin: 3rem;
+    }
+
+    #briefOverview, #quickStats {
+        margin: 3rem 3rem;
+    }
+
+    #quickStats {
+        gap: 2rem;
+    }
+
+    .columnBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .highlightedBackground {
+        background-color: #F4F4F4;
+        padding: 7rem 2.5rem;
+    }
+
+    .callOut {
+        padding-bottom: 1rem;
+    }
+
+    .leftColumnTitle {
+        flex: 0 0 30%;
+    }
+
+    #boxMargins {
+        margin: 6rem 3rem 4rem 3rem;
+    }
+}

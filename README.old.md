@@ -1,1 +1,0 @@
-# lupepaniagua.github.io

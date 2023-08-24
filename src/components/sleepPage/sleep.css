@@ -1,0 +1,166 @@
+#landingImage {
+    border-radius: 2em;
+    margin: 0em 4em;
+    width: 90%;
+}
+
+.subheadingGrey {
+    color: #969696;
+    font-size: 0.8em;
+    margin: 1.75em auto 0.75em auto;
+}
+
+.greyText {
+    color: #969696;
+    font-size: 0.94em;
+}
+
+#pageTitle {
+    text-align: center;
+    margin: 6.5em 20em 3em 20em;
+    padding: 2em 20em;
+}
+
+#quickStats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin: 3em 20em 6em 20em;
+}
+
+#briefOverview {
+    margin: 6em 20em 0em 20em;
+}
+
+#NDA, .callOut {
+    color: #232FC4;
+}
+
+.highlightedBackground {
+    background-color: #F4F4F4;
+    padding: 8em 20em;
+}
+
+.columnBoxContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+}
+
+.leftColumnTitle {
+    flex: 0 0 30%;
+    text-align: right;
+}
+
+.callOut, .blackCallOut {
+    padding-bottom: 1.5em;
+}
+
+.blackCallOut {
+    color: #202020;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+#boxMargins {
+    margin: 7em 20em 7em 20em;
+}
+
+#greyedOut {
+    color: rgba(170, 170, 170, 0.7);
+}
+
+
+/* media viewport responsiveness */
+@media only screen and (max-width: 767px) {
+    #pageTitle {
+        width: 90%;
+        margin: 5em 1em 2em 1em;
+        padding: 1em 0em;
+    }
+
+    #landingImage {
+        margin: 0em 1em;
+    }
+
+    #briefOverview, #quickStats {
+        margin: 5em 1em;
+    }
+
+    #quickStats {
+        gap: 1.75em;
+    }
+
+    .columnBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .highlightedBackground {
+        background-color: #F4F4F4;
+        padding: 5em 1em;
+    }
+
+    .callOut {
+        padding-bottom: 0.75em;
+    }
+
+    .leftColumnTitle {
+        flex: 0 0 30%;
+        text-align: left;
+    }
+
+    #boxMargins {
+        margin: 5em 1em 7em 1em;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #pageTitle {
+        width: 90%;
+        margin: 6em 3em 2em 3em;
+        padding: 1em 0em;
+    }
+
+    #landingImage {
+        margin: 3em;
+    }
+
+    #briefOverview, #quickStats {
+        margin: 3em 3em;
+    }
+
+    #quickStats {
+        gap: 2em;
+    }
+
+    .columnBoxContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    }
+
+    .highlightedBackground {
+        background-color: #F4F4F4;
+        padding: 7em 3em;
+    }
+
+    .callOut {
+        padding-bottom: 1em;
+    }
+
+    .leftColumnTitle {
+        flex: 0 0 30%;
+        text-align: left;
+    }
+
+    #boxMargins {
+        margin: 6em 3em 4em 3em;
+    }
+}

@@ -1,0 +1,41 @@
+#leftBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+#leftBox h2 {
+    color: #f8f8f8;
+}
+
+#contactRow {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+.socialsColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.socialsColumn p {
+    margin: 0;
+    color: #f8f8f8;
+}
+
+
+.socialsColumn a {
+    font-family: 'HK Grotesk';
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease-in-out 0s;
+}
+
+.socialsColumn a:hover {
+    opacity: 0.5;
+}

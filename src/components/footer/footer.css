@@ -1,0 +1,46 @@
+#boxContainer {
+    background-color: #202020;
+    color: #f8f8f8;
+    width: auto;
+    padding: 2.5rem 7.5rem;
+    opacity: 0; 
+    transform: translateY(100px); 
+    animation: slideIn 1s forwards, transform 1s ease;
+}
+
+#footerBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+::selection {
+    background: #fff7a0; 
+    color: #333333;
+  }
+
+/* media viewport responsiveness*/
+@media only screen and (max-width: 767px) {
+    #boxContainer {
+        padding: 2.5rem 1rem;
+    }
+
+    #footerBoxes {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #boxContainer {
+        padding: 2.5rem 3rem;
+    }
+
+    #footerBoxes {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,155 @@
+#bioContainer {
+    margin: 6rem 24rem 4rem 24rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+#bioContainer img {
+    border-radius: 1rem;
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>✨</text></svg>") 16 0,auto;
+}
+
+#tldrBlock h1{
+    color: rgba(170, 170, 170, 0.7);
+    margin-bottom: 0.6rem;
+}
+
+#tldrBlock {
+    margin-bottom: 1.5rem;
+}
+
+#infoBlock p{
+   color: #666666;
+}
+
+#infoBlock span{
+    color: #202020;
+ }
+
+#spotifyContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    margin: 3rem 6rem;
+}
+
+#spotifyContainer img {
+    width: 3.5rem;
+    height: auto;
+    background: #F4F4F4;
+    margin: auto 1rem;
+}
+
+#spotifyContainer h4 {
+    text-overflow: ellipsis;
+}
+
+#spotifyContainer h5 {
+    color: #8F8F8F;
+}
+
+#nowPlayingContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-items: center;
+    margin: 0.5rem 0rem;
+}
+
+#nowPlayingContainer p {
+    color: #62CB6B;
+}
+
+#playingAnimation {
+    margin-right: 0.25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+}
+
+.playingIndicatorLine {
+    width: 0.188rem;
+    height: 0.188rem;
+    margin-right: 0.188rem;
+    background: #62CB6B;
+    border-radius: 0.094rem;
+}
+
+@keyframes playing{
+    0%{
+        height:0.188rem
+    }
+    50%{
+        height:1rem
+    }
+    to{
+        height:0.188rem
+    }
+}
+
+#first {
+    animation: playing 0.85s infinite ease;
+}
+
+#second {
+    animation: playing 1.26s infinite ease;
+}
+
+#third {
+    animation: playing 0.62s infinite ease;
+}
+
+#infoBlock {
+    margin-top: 0.8rem;
+}
+
+#infoBlock a {
+    color: #202020;
+    font-family: 'Akkurat Bold';
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out 0s;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23fff7a0' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100% 25%;
+}
+
+.content a:hover{
+    opacity: 0.6;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='%23fff7a0' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 1023px) { 
+    #bioContainer {
+        margin: 0rem 1rem 5.5rem 1rem;
+        flex-direction: column;
+    }
+
+    #infoBlock {
+        margin-top: 1rem;
+    }
+
+    #bioContainer img {
+        width: 100%;
+        height: auto;
+    }
+
+    #spotifyContainer img {
+        width: 3.5rem;
+        height: auto;
+        background: #F4F4F4;
+    }
+
+    #spotifyContainer {
+        margin: 2.5rem 0rem;
+    }
+
+}
