@@ -1,12 +1,16 @@
 .headerContainer, #navBar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .headerContainer {
     width: auto;
     margin: 2.5rem 7.5rem;
+}
+
+.headerContainer h2 {
+    visibility: visible;
 }
 
 #greyText {
@@ -61,8 +65,12 @@
         align-items: center;
         gap: 1.5rem;
         width: 90%;
-        margin: 5rem 5%;
+        margin: 3rem 5%;
         align-content: center;
+    }
+
+    .headerContainer h2 {
+        visibility: hidden;
     }
 
     #navBar {

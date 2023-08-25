@@ -32,7 +32,8 @@ body {
 }
 
 .bolded {
-  font-weight: bold;
+  font-family: 'Akkurat Bold';
+  font-weight: normal;
 }
 
 p, h1, h2, h3, h4, h5 {

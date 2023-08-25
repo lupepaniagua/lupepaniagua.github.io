@@ -36,24 +36,28 @@
     flex-direction: row;
     background-color: #F4F4F4;
     border-radius: 1rem;
-    padding: 1rem 1.5rem;
-    gap: 1rem;
-    margin: 3rem 6rem;
+    padding: 1.25rem;
+    gap: 2rem;
+    margin: 3rem 9rem;
 }
 
 #spotifyContainer img {
-    width: 3.5rem;
+    width: 8vw;
     height: auto;
     background: #F4F4F4;
-    margin: auto 1rem;
-}
-
-#spotifyContainer h4 {
-    text-overflow: ellipsis;
+    margin: auto 0rem;
+    border-radius: 0.75rem;
 }
 
 #spotifyContainer h5 {
+    text-overflow: ellipsis;
+    margin: 0.75rem auto 0rem auto;
+}
+
+#spotifyContainer p {
     color: #8F8F8F;
+    text-overflow: ellipsis;
+    margin: 0rem;
 }
 
 #nowPlayingContainer {
@@ -61,7 +65,7 @@
     flex-direction: row;
     gap: 0.3rem;
     justify-items: center;
-    margin: 0.5rem 0rem;
+    margin: 1rem 0rem 0rem 0rem;
 }
 
 #nowPlayingContainer p {
@@ -129,7 +133,7 @@
 
 @media only screen and (max-width: 1023px) { 
     #bioContainer {
-        margin: 0rem 1rem 5.5rem 1rem;
+        margin: 4rem 1rem 5.5rem 1rem;
         flex-direction: column;
     }
 
@@ -143,13 +147,20 @@
     }
 
     #spotifyContainer img {
-        width: 3.5rem;
+        width: 15rem;
         height: auto;
         background: #F4F4F4;
+        margin: auto;
     }
 
     #spotifyContainer {
-        margin: 2.5rem 0rem;
+        margin: 2.5rem 3rem;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    #nowPlayingContainer {
+        margin: 0rem;
     }
 
 }

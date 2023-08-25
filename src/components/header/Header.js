@@ -34,7 +34,9 @@ const linkHoverEffect = {
 export default function Header() {
   return (
     <div className='headerContainer'>
+      {/* hidden name text
       <h2 id='greyText'>Lupe Paniagua</h2>
+      */}
       <div id='navBar'>
         <motion.div
           whileHover='hover'

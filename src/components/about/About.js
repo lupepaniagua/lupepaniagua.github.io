@@ -6,7 +6,7 @@ import Footer from '../footer/Footer';
 import './about.css';
 import selfImage from '../../assets/me.png';
 import spotifyLogo from '../../assets/spotify.svg';
-import { getNowPlayingItem } from '../spotify/Spotify';
+import { getNowPlayingItem } from '../spotify/SpotifyAPI';
 
 
 export default function About() {
@@ -17,14 +17,11 @@ export default function About() {
   const spotifyControls = useAnimation();
 
   useEffect(() => {
-    // fetch currently playing and last played tracks
-    getNowPlayingItem().then((track) => {
-      if (track?.isPlaying) {
-        setCurrentlyPlaying(track);
-      } else {
-        setLastPlayed(track);
-      }
-    });
+    // fetch the last played track from local storage when the component load
+    const storedLastPlayed = localStorage.getItem('lastPlayed');
+    if (storedLastPlayed) {
+      setLastPlayed(JSON.parse(storedLastPlayed));
+    }
   }, []);
 
   const renderPlayingStatus = () => {
@@ -32,15 +29,17 @@ export default function About() {
   };
 
   useEffect(() => {
-    /* 
     const fetchData = async () => {
       try {
         const track = await getNowPlayingItem();
         console.log("Fetched track:", track);
         if (track?.isPlaying) {
           setCurrentlyPlaying(track);
-        } else {
+          setLastPlayed(null);
+        } else if (track) {
+          // update lastPlayed state and store it in local storage
           setLastPlayed(track);
+          localStorage.setItem('lastPlayed', JSON.stringify(track));
         }
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -48,9 +47,8 @@ export default function About() {
     };
 
   fetchData();
-    const intervalId = setInterval(fetchData, 10000);
+    const intervalId = setInterval(fetchData, 60000);
     return () => clearInterval(intervalId);
-    */
   }, []);
 
 
@@ -79,6 +77,16 @@ export default function About() {
       type: 'spring',
       stiffness: 500,
       damping: 30,
+    },
+  };
+
+  const linkHoverEffect = {
+    opacity: 0.7,
+    scale: 1.2,
+    transition: {
+      type: "spring",
+      stiffness: 400,
+      damping: 10,
     },
   };
 
@@ -200,11 +208,19 @@ export default function About() {
             </motion.p>
           </div>
           <motion.div id='spotifyContainer' {...spotifyMotionProps}>
-            <img
-              loading='lazy'
-              src={spotifyLogo}
-              alt='spotify is a music streaming platform and this is the green circle logo with 3 stripes cut out of the center'
-            />
+            <motion.a
+                  href={currentlyPlaying?.songUrl || lastPlayed?.songUrl}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  whileHover={linkHoverEffect}
+                  className='arrowLink'
+                >
+                  <img
+                    loading='lazy'
+                    src={currentlyPlaying?.songImageUrl || lastPlayed?.songImageUrl}
+                    alt={currentlyPlaying?.title || lastPlayed?.title}
+                  />
+                </motion.a>
             <div>
               <div id='nowPlayingContainer'>
                 <div id='playingAnimation'>
@@ -214,15 +230,13 @@ export default function About() {
                   </div>
                 <p>{renderPlayingStatus()}</p>
               </div>
-              {currentlyPlaying || lastPlayed ? (
+              {(currentlyPlaying && currentlyPlaying.isPlaying) || lastPlayed ? (
                 <div>
-                  <h4>{currentlyPlaying?.title || lastPlayed?.title}</h4>
-                  <h5>
-                    {currentlyPlaying?.artist || lastPlayed?.artist}
-                  </h5>
+                  <h5>{currentlyPlaying?.title || lastPlayed?.title}</h5>
+                  <p>{currentlyPlaying?.artist || lastPlayed?.artist}</p>
                 </div>
               ) : (
-                <p>No track is listed. Check back again later.</p>
+                currentlyPlaying === null && <p>No track is listed. Check back again later.</p>
               )}
             </div>
           </motion.div>
