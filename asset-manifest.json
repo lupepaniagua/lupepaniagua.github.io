@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.216f7296.css",
-    "main.js": "/static/js/main.ac8b22cc.js",
+    "main.css": "/static/css/main.00264f04.css",
+    "main.js": "/static/js/main.a136f5da.js",
     "static/media/jelly.png": "/static/media/jelly.71f22ce8dd2b4daf2ffa.png",
     "static/media/identity-crisis.png": "/static/media/identity-crisis.e45c2770b43350e4565c.png",
     "static/media/neighbourhood.png": "/static/media/neighbourhood.672ceb6030c7c85f9621.png",
@@ -72,11 +72,12 @@
     "static/media/spotify.svg": "/static/media/spotify.40880c125b8f9d61e755bff73c853816.svg",
     "static/media/closeIcon.svg": "/static/media/closeIcon.ed66534e96aa1ab911df17ae7dd041df.svg",
     "index.html": "/index.html",
-    "main.216f7296.css.map": "/static/css/main.216f7296.css.map",
-    "main.ac8b22cc.js.map": "/static/js/main.ac8b22cc.js.map"
+    "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
+    "main.00264f04.css.map": "/static/css/main.00264f04.css.map",
+    "main.a136f5da.js.map": "/static/js/main.a136f5da.js.map"
   },
   "entrypoints": [
-    "static/css/main.216f7296.css",
-    "static/js/main.ac8b22cc.js"
+    "static/css/main.00264f04.css",
+    "static/js/main.a136f5da.js"
   ]
 }
