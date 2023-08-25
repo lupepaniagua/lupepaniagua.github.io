@@ -132,7 +132,7 @@ export default function About() {
             alt='a landscape headshot of lupe paniagua in her graduation gown from UC Berkeley'
           />
         </motion.div>
-        <div>
+        <div >
           <div id='tldrBlock'>
             <motion.h1 {...textMotionProps}>Hi, nice to meet ya 👋</motion.h1>
           </div>
