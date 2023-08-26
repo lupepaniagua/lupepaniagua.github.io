@@ -129,7 +129,7 @@
 
     #contactRow {
         flex-direction: column;
-        row-gap: 3.5rem;
+        row-gap: 2.5rem;
         column-gap: 11.5rem;
         justify-content: center;
         margin: auto;
@@ -156,7 +156,7 @@
     }
 
     .socialsBox {
-        gap: 3rem;
+        gap: 5rem;
     }
 
     #spotifyFooterBox img {

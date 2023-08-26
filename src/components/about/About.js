@@ -25,7 +25,7 @@ export default function About() {
   }, []);
 
   const renderPlayingStatus = () => {
-    return currentlyPlaying ? 'Currently Playing' : 'Offline. Last Played';
+    return currentlyPlaying ? 'Now Playing' : 'Offline. Last Played';
   };
 
   useEffect(() => {
@@ -40,6 +40,12 @@ export default function About() {
           // update lastPlayed state and store it in local storage
           setLastPlayed(track);
           localStorage.setItem('lastPlayed', JSON.stringify(track));
+        } else {
+          // no fetched data and null
+          const storedLastPlayed = localStorage.getItem('lastPlayed');
+          if (storedLastPlayed) {
+            setLastPlayed(JSON.parse(storedLastPlayed));
+          }
         }
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -134,7 +140,7 @@ export default function About() {
         </motion.div>
         <div >
           <div id='tldrBlock'>
-            <motion.h1 {...textMotionProps}>Hi, nice to meet ya 👋</motion.h1>
+            <motion.h1 {...textMotionProps}>Hi, nice to meet ya!</motion.h1>
           </div>
           <div id='infoBlock'>
             <motion.p {...textMotionProps}>

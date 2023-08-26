@@ -157,6 +157,7 @@ span {
 
     #landingImage {
         margin: 0rem 1rem;
+        border-radius: 1rem;
     }
 
     #briefOverview, #quickStats, .bfiContainer {
@@ -165,6 +166,7 @@ span {
 
     #quickStats {
         gap: 1.75rem;
+        margin: 0rem 1rem 1.75rem;
     }
 
     .columnBoxContainer {
@@ -203,6 +205,31 @@ span {
 
     #reverseOrder {
         flex-direction: column-reverse;
+    }
+
+    .subheadingGrey {
+        margin: 0.5rem auto 0.75rem auto;
+    }
+
+    #briefOverview {
+        margin-bottom: 2.5rem;
+    }
+
+    .threeColumns {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #whiteGreyBox.doubleColumns {
+        margin: 1.25rem auto;
+    }
+
+    .imgHeavy {
+        margin: 2rem 0rem;
+    }
+
+    .imgHeavy img {
+        margin: 0.75rem auto 1rem auto;
     }
 
 

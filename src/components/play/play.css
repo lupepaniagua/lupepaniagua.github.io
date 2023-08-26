@@ -22,10 +22,10 @@
   
   .images {
     transition: all 100ms ease;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='60' height='72' viewport='0 0 100 100' style='fill:black;font-size:36px;'><text y='50%'>✨</text></svg>") 16 0, auto;
     width: 15vw;
     height: auto;
     padding: 0;
+    cursor: pointer;
   }
   
 .images:hover {
@@ -119,8 +119,8 @@
 
 .modal.open > button:hover {
     transition: all 0.3s ease-out 0s;
-    cursor: pointer;
     background-color: #333333;
+    cursor: pointer;
 }
 
 

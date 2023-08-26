@@ -47,6 +47,7 @@
     background: #F4F4F4;
     margin: auto 0rem;
     border-radius: 0.75rem;
+    cursor: pointer;
 }
 
 #spotifyContainer h5 {

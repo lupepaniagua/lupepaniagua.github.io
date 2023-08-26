@@ -33,9 +33,15 @@ const Footer = () => {
         console.log("Fetched track:", track);
         if (track?.isPlaying) {
           setCurrentlyPlaying(track);
+          setLastPlayed(null);
         } else if (track) {
           setLastPlayed(track);
           localStorage.setItem('lastPlayed', JSON.stringify(track));
+        } else {
+          const storedLastPlayed = localStorage.getItem('lastPlayed');
+          if (storedLastPlayed) {
+            setLastPlayed(JSON.parse(storedLastPlayed));
+          }
         }
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -58,7 +64,7 @@ const Footer = () => {
   };
 
   const renderPlayingStatus = () => {
-    return currentlyPlaying ? 'Currently Playing 🎧' : 'Offline. Last Played 🎧';
+    return currentlyPlaying ? 'Now Playing 🎧' : 'Offline. Last Played ';
   };
 
   return (
