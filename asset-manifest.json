@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.815d9b38.css",
-    "main.js": "/static/js/main.9bd5d7c6.js",
+    "main.js": "/static/js/main.2c6f641a.js",
     "static/media/jelly.png": "/static/media/jelly.71f22ce8dd2b4daf2ffa.png",
     "static/media/identity-crisis.png": "/static/media/identity-crisis.e45c2770b43350e4565c.png",
     "static/media/neighbourhood.png": "/static/media/neighbourhood.672ceb6030c7c85f9621.png",
@@ -25,6 +25,7 @@
     "static/media/what-it-is.png": "/static/media/what-it-is.5181d3708d70d3b0b8bd.png",
     "static/media/citizen-concert.png": "/static/media/citizen-concert.09ca39d06d922196619d.png",
     "static/media/blu-grad.png": "/static/media/blu-grad.f1a55d43619d97376c6b.png",
+    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.ad629534187584f5893a.pdf",
     "static/media/tlou.png": "/static/media/tlou.4c51a795a8fd30cc5db5.png",
     "static/media/spinning.png": "/static/media/spinning.6ded9b2f54db939954bd.png",
     "static/media/red-grad.png": "/static/media/red-grad.873f8ab9dc5aaaba21de.png",
@@ -37,7 +38,6 @@
     "static/media/mktour.png": "/static/media/mktour.a02564c96b1fc7df8dd4.png",
     "static/media/exhausted.png": "/static/media/exhausted.dbf25c795f74ed7ea9bd.png",
     "static/media/anything-goes.png": "/static/media/anything-goes.40067f88e48e5a5ea2c2.png",
-    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.d2cd8133bbab8f5c30ac.pdf",
     "static/media/when-together.png": "/static/media/when-together.9dc045668108c81f46fe.png",
     "static/media/layers.png": "/static/media/layers.5e74bd9ad06f87a079db.png",
     "static/media/calculator.png": "/static/media/calculator.0c98b0504c33f45589fe.png",
@@ -74,10 +74,10 @@
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
     "main.815d9b38.css.map": "/static/css/main.815d9b38.css.map",
-    "main.9bd5d7c6.js.map": "/static/js/main.9bd5d7c6.js.map"
+    "main.2c6f641a.js.map": "/static/js/main.2c6f641a.js.map"
   },
   "entrypoints": [
     "static/css/main.815d9b38.css",
-    "static/js/main.9bd5d7c6.js"
+    "static/js/main.2c6f641a.js"
   ]
 }
