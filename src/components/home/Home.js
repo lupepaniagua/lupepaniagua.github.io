@@ -44,7 +44,7 @@ export default function Home() {
     'making design accesible',
     'building joyful and beautiful products',
     'a self-taught designer',
-    'aways curious and always learning',
+    'always curious and always learning',
     'interested in the interaction of society and technology',
     'a bread enthusiast 🥖',
     'using Cognitive Science to humanize tech',
