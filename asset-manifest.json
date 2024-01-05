@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.29995dba.css",
-    "main.js": "/static/js/main.be7f86e1.js",
+    "main.css": "/static/css/main.2517280f.css",
+    "main.js": "/static/js/main.f827d8cf.js",
     "static/media/jelly.png": "/static/media/jelly.71f22ce8dd2b4daf2ffa.png",
     "static/media/identity-crisis.png": "/static/media/identity-crisis.e45c2770b43350e4565c.png",
     "static/media/neighbourhood.png": "/static/media/neighbourhood.672ceb6030c7c85f9621.png",
@@ -23,9 +23,9 @@
     "static/media/beauty-in-tragedy.png": "/static/media/beauty-in-tragedy.e10df8e728dda87ae6b1.png",
     "static/media/dull-knife.png": "/static/media/dull-knife.689f1b5f0c4dd816ad1c.png",
     "static/media/what-it-is.png": "/static/media/what-it-is.5181d3708d70d3b0b8bd.png",
+    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.c9de09b92bcb663a841c.pdf",
     "static/media/citizen-concert.png": "/static/media/citizen-concert.09ca39d06d922196619d.png",
     "static/media/blu-grad.png": "/static/media/blu-grad.f1a55d43619d97376c6b.png",
-    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.ad629534187584f5893a.pdf",
     "static/media/tlou.png": "/static/media/tlou.4c51a795a8fd30cc5db5.png",
     "static/media/spinning.png": "/static/media/spinning.6ded9b2f54db939954bd.png",
     "static/media/red-grad.png": "/static/media/red-grad.873f8ab9dc5aaaba21de.png",
@@ -39,7 +39,9 @@
     "static/media/exhausted.png": "/static/media/exhausted.dbf25c795f74ed7ea9bd.png",
     "static/media/anything-goes.png": "/static/media/anything-goes.40067f88e48e5a5ea2c2.png",
     "static/media/when-together.png": "/static/media/when-together.9dc045668108c81f46fe.png",
+    "static/media/spotify-banner.png": "/static/media/spotify-banner.a1fa91a6888a3202cd9a.png",
     "static/media/layers.png": "/static/media/layers.5e74bd9ad06f87a079db.png",
+    "static/media/spotify.png": "/static/media/spotify.90ad06e6db50aa89b030.png",
     "static/media/calculator.png": "/static/media/calculator.0c98b0504c33f45589fe.png",
     "static/media/me.png": "/static/media/me.a50d7a6f1860e0ede80a.png",
     "static/media/sign-up.png": "/static/media/sign-up.6d671ed65bec7dcc4858.png",
@@ -47,6 +49,7 @@
     "static/media/human.png": "/static/media/human.8e7cbaa702fccce37a20.png",
     "static/media/concept-2.png": "/static/media/concept-2.4b2612b022051fcdb2a4.png",
     "static/media/concept-1.png": "/static/media/concept-1.57423289f974fc4656ed.png",
+    "static/media/nectar.png": "/static/media/nectar.fe719109238ef1a83813.png",
     "static/media/concept-3.png": "/static/media/concept-3.2d42dc9b990a316aae3b.png",
     "static/media/mockup.png": "/static/media/mockup.c0f333dc3c89dd693a42.png",
     "static/media/nav.png": "/static/media/nav.9637c98cb3271f60546f.png",
@@ -73,11 +76,11 @@
     "static/media/closeIcon.svg": "/static/media/closeIcon.ed66534e96aa1ab911df17ae7dd041df.svg",
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
-    "main.29995dba.css.map": "/static/css/main.29995dba.css.map",
-    "main.be7f86e1.js.map": "/static/js/main.be7f86e1.js.map"
+    "main.2517280f.css.map": "/static/css/main.2517280f.css.map",
+    "main.f827d8cf.js.map": "/static/js/main.f827d8cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.29995dba.css",
-    "static/js/main.be7f86e1.js"
+    "static/css/main.2517280f.css",
+    "static/js/main.f827d8cf.js"
   ]
 }
