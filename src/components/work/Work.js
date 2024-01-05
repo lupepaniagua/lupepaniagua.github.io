@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import WorkItem from './WorkItem';
-import { bfiData, emochaData, sleepData, workStudyData } from './WorkData';
+import { bfiData, emochaData, sleepData, workStudyData, nectarData, spotifyData } from './WorkData';
 
 const Work = () => {
   return (
@@ -36,6 +36,8 @@ const Work = () => {
           Personal Projects 🧸
         </motion.h1>
         <div id='workColumns' className='doubleColumns'>
+          <WorkItem workData={spotifyData} />
+          <WorkItem workData={nectarData} />
           <WorkItem workData={sleepData} />
           <WorkItem workData={workStudyData} />
         </div>

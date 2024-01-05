@@ -48,7 +48,7 @@ export default function Home() {
     'interested in the interaction of society and technology',
     'a bread enthusiast 🥖',
     'using Cognitive Science to humanize tech',
-    'based in the Bay Area',
+    'based in the Bay Area 🌁',
     'designing and developing for social good',
     'a Gengar and Breloom fan 🎮',
     'waiting for a new adventure 🏰',

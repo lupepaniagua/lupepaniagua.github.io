@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet'
-import { motion } from 'framer-motion'; 
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import './bfi.css'
@@ -18,9 +17,10 @@ import mockups from '../../assets/bfi/mockup.png'
 
 
 
-
 export default function Bfi() {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
   return (
     <div>

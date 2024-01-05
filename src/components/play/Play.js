@@ -54,9 +54,8 @@ export default function Play() {
         title="Visual Storytelling Using Music 🎶"
         description="My passion for music is a constant source of inspiration for my creativity. I try to
         to capture the essence of an album or lyric and express all of my ideas and feelings
-        through a visual lens in my artwork.
-        This is an ongoing series of dedicated music-related pieces to show my admiration for some
-        amazing bands and artists."
+        through a visual lens in my artwork. This is an ongoing series of dedicated music-related 
+        pieces to show my admiration for some amazing bands and artists."
         data={musicImageData}
       />
       <Section

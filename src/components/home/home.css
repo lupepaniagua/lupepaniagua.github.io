@@ -35,15 +35,11 @@
 /* media viewport responsiveness */
 @media only screen and (max-width: 767px) {
     #landingContainer {
-        margin: 15rem 2rem;
+        margin: 10rem 2rem;
     }
 
     #currentJob {
         margin-top: 1rem;
-    }
-
-    #cyclingHomeText {
-        background: none;
     }
 
 }
@@ -51,10 +47,6 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     #landingContainer {
         margin: 15rem 1.5rem 12rem 2.5rem;
-    }
-
-    #cyclingHomeText {
-        background: none;
     }
 
 }

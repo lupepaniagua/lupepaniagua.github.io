@@ -16,7 +16,7 @@
   
   #contactRow {
     display: flex;
-    column-gap: 11.25rem;
+    column-gap: 5.25rem;
     row-gap: 3.5rem;
     margin: auto;
     flex-wrap: wrap;

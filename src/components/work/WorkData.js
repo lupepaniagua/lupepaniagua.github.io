@@ -2,6 +2,8 @@ import bfiThumb from '../../assets/work-thumbnails/bfi.png'
 import emochaThumb from '../../assets/work-thumbnails/emocha.png'
 import sleepThumb from '../../assets/work-thumbnails/sleep.png'
 import workStudyThumb from '../../assets/work-thumbnails/work-study.png'
+import nectarThumb from '../../assets/work-thumbnails/nectar.png'
+import spotifyThumb from '../../assets/work-thumbnails/spotify.png'
 
 
 const bfiData = [
@@ -22,7 +24,7 @@ const emochaData = [
         workTitle: "emocha Health: Product Design Internship",
         workDesc: "I conducted a design audit and established a functional design library system. Here I have documented my internship reflections. Please also note that this work is under NDA.",
         workDate:'June - Aug 2022',
-        labels: ['Product Design', 'UI/UX Design', 'UX Research']
+        labels: ['Product Design', 'UI/UX Design', 'UX Research', 'Internship']
       }
 ];
     
@@ -32,7 +34,7 @@ const sleepData = [
         workLink:'https://lupepaniagua.notion.site/Sleep-Deprivation-Website-fc108dada34b48399343e62aae7b1b24',
         workTitle: "Sleep Deprivation Website",
         workDesc: "I designed and developed a website and a flyer for my Psychology of Sleep class project. It contains information over sleep derpivation and its effects on the body + brain.",
-        workDate:'Nov 15 - Nov 22, 2021',
+        workDate:'Nov 2021',
         labels: ['Archive', 'Web Development', 'UI Design', 'Graphic Design']
       }
 ];
@@ -47,10 +49,34 @@ const workStudyData = [
         labels: ['Archive', 'Product Design', 'UI/UX Design', 'Case Study']
       }
 ];
+
+const nectarData = [
+    {
+        imgSrc: nectarThumb,
+        workLink:'',
+        workTitle: "Nectar App",
+        workDesc: "An app that simplifies grocery shopping by allowing users to compare prices on items with your local stores.",
+        workDate:'Jan - March 2022',
+        labels: ['Concept', 'Product Design', 'UI/UX Design', 'Case Study']
+      }
+];
+
+const spotifyData = [
+    {
+        imgSrc: spotifyThumb,
+        workLink:'/work/spotify-miniplayer',
+        workTitle: "Spotify Desktop Mini Player Concept",
+        workDesc: "A fun little project where I designed a new mini player widget for Spotify that includes the lyrics. Currently under future development.",
+        workDate:'Aug 2023',
+        labels: ['Concept', 'Product Design', 'UI Design']
+      }
+];
     
 export {
     bfiData,
     emochaData,
     sleepData,
-    workStudyData
+    workStudyData,
+    nectarData,
+    spotifyData,
 };
