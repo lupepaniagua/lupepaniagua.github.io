@@ -6,7 +6,7 @@ import './spotifyPage.css'
 import spotifybanner from '../../assets/spotify-widget/spotify-banner.png'
 
 
-export default function Bfi() {
+export default function SpotifyWidget() {
   useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
@@ -87,7 +87,7 @@ return (
                       <h4>🎤 Spotify Lyrics</h4>
                       <p className='greyText'>
                         I imagined my widget to emulate the lyrical format seen on Spotify, but reinterpreted it in a new manner. 
-                        I mostly focused on keeping the <span> text highlighted and automatically scroll in sync</span> xwith the song. 
+                        I mostly focused on keeping the <span> text highlighted and automatically scroll in sync</span> with the song. 
                       </p>
                   </div>
               </div>
@@ -106,7 +106,7 @@ return (
                     In the vast realm of online resources, seeking inspiration is crucial. It's important to see how others have tackled similar 
                     problems as it provides valuable insights. However, I must note that it's essential to tread carefully, 
                     <span>ensuring inspiration doesn't transform into replication.</span> You can't copy and recreate a designers' work, call it 
-                    your own and take credit. Now, while couldn't find an exact match for my vision, apps like 
+                    your own and take credit. Now, while couldn't find an exact match for my vision, apps like  
                     <span>Sleeve 2, MD Vinyl, and MiniPlayer Widget </span> offered intriguing features and caught my attention for this project. 
                  </p>
              </div>

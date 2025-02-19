@@ -184,8 +184,8 @@ const Footer = () => {
               </motion.a>
             </div>
             <div id='smallerBox'>
-              <p>Designed and developed with 🎶 🤍 🐕 </p>
-              <p>Last updated: August 2023</p>
+              <p>Designed and developed with 🤍</p>
+              <p>Last updated in 2025</p>
             </div>
           </div>
       </div>

@@ -144,7 +144,7 @@ export default function About() {
           </div>
           <div id='infoBlock'>
             <motion.p {...textMotionProps}>
-              I'm Lupe, a recent graduate with a B.A. in Cognitive Science from the University of California, Berkeley. 
+              I'm Lupe, I graduated with a B.A. in Cognitive Science from the University of California, Berkeley in 2023. 
               I'm a self-taught designer who’s interested in <span>
                 solving complex problems by humanizing tech &
                  exploring the intersection between psychology, technology, and design.
@@ -184,7 +184,7 @@ export default function About() {
               <br />
             </motion.p>
             <motion.p {...textMotionProps}>
-              When I’m not designing, you can find me walking my dog 🐕, making an obnoxious amount of {' '}
+              When I’m not designing, you can find me taking film pictures 📸, making collages in my journal 🖼️, making an obnoxious amount of {' '}
               <motion.a
                 href='https://open.spotify.com/user/its.lupee'
                 target='_blank'
@@ -194,7 +194,7 @@ export default function About() {
               >
                 spotify playlists 🎶
               </motion.a>
-              , playing video games on my switch 🎮, or shopping for new plants 🪴.
+              , playing video games on my switch 🎮, or going on a hike in the mountains 🥾.
             </motion.p>
             <br />
             <motion.p {...textMotionProps}>

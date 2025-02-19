@@ -53,7 +53,7 @@ const workStudyData = [
 const nectarData = [
     {
         imgSrc: nectarThumb,
-        workLink:'',
+        workLink:'/work/nectar',
         workTitle: "Nectar App",
         workDesc: "An app that simplifies grocery shopping by allowing users to compare prices on items with your local stores.",
         workDate:'Jan - March 2022',

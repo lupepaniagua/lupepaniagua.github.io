@@ -30,8 +30,7 @@ export default function Home() {
 
   const roles = [
     'an empathetic product designer',
-    'a loving dog mom 🐕',
-    'a recent UC Berkeley graduate 🐻',
+    'a 2023 UC Berkeley graduate 🐻',
     'crafting thoughtful and impactful digital experiences',
     'a visual storyteller',
     'passionate about inclusivity and diversity',
@@ -48,7 +47,7 @@ export default function Home() {
     'interested in the interaction of society and technology',
     'a bread enthusiast 🥖',
     'using Cognitive Science to humanize tech',
-    'based in the Bay Area 🌁',
+    'based in Sacramento 🌲',
     'designing and developing for social good',
     'a Gengar and Breloom fan 🎮',
     'waiting for a new adventure 🏰',
@@ -139,7 +138,7 @@ export default function Home() {
           animate='visible'
           variants={containerVariants}
         >
-          <p id='currentJob'>📍 Previously a Product Design Intern @ <span>emocha Health</span></p>
+          <p id='currentJob'>🍎 Currently a Technical Support Advisor @ <span>Apple</span></p>
         </motion.div>
       </div>
       <Footer />

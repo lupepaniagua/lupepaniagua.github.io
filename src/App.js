@@ -9,7 +9,8 @@ import Emocha from './components/emochaPage/Emocha';
 import Bfi from './components/bfiPage/Bfi';
 import Sleep from './components/sleepPage/Sleep';
 import WorkStudy from './components/workStudyPage/WorkStudy';
-import SpotifyWidget from './components/spotifyPage/SpotifyWidget'
+import SpotifyWidget from './components/spotifyPage/SpotifyWidget';
+import Nectar  from './components/nectarPage/Nectar';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path='/work/sleep' element={<Sleep />}></Route>
               <Route path='/work/work-study' element={<WorkStudy />}></Route>
               <Route path='/work/spotify-miniplayer' element={<SpotifyWidget />}></Route>
+              <Route path='/work/nectar' element={<Nectar />}></Route>
             <Route path='play' element={<Play />} />
             <Route path='about' element={<About />} />
             <Route path='*' element={<Error />} />
