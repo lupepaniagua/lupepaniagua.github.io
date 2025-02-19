@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2517280f.css",
-    "main.js": "/static/js/main.f827d8cf.js",
+    "main.js": "/static/js/main.0f9fc786.js",
     "static/media/jelly.png": "/static/media/jelly.71f22ce8dd2b4daf2ffa.png",
     "static/media/identity-crisis.png": "/static/media/identity-crisis.e45c2770b43350e4565c.png",
     "static/media/neighbourhood.png": "/static/media/neighbourhood.672ceb6030c7c85f9621.png",
@@ -23,7 +23,7 @@
     "static/media/beauty-in-tragedy.png": "/static/media/beauty-in-tragedy.e10df8e728dda87ae6b1.png",
     "static/media/dull-knife.png": "/static/media/dull-knife.689f1b5f0c4dd816ad1c.png",
     "static/media/what-it-is.png": "/static/media/what-it-is.5181d3708d70d3b0b8bd.png",
-    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.c9de09b92bcb663a841c.pdf",
+    "static/media/resume-lupepaniagua.pdf": "/static/media/resume-lupepaniagua.d7b2ce3f2b394adc9c65.pdf",
     "static/media/citizen-concert.png": "/static/media/citizen-concert.09ca39d06d922196619d.png",
     "static/media/blu-grad.png": "/static/media/blu-grad.f1a55d43619d97376c6b.png",
     "static/media/tlou.png": "/static/media/tlou.4c51a795a8fd30cc5db5.png",
@@ -36,6 +36,7 @@
     "static/media/myself-in-the-way.png": "/static/media/myself-in-the-way.51098b3274094e706aae.png",
     "static/media/dont-love-you.png": "/static/media/dont-love-you.4e3f36b3fbe98171ce6c.png",
     "static/media/mktour.png": "/static/media/mktour.a02564c96b1fc7df8dd4.png",
+    "static/media/nectar-banner.png": "/static/media/nectar-banner.605e50ea737e3096f4d7.png",
     "static/media/exhausted.png": "/static/media/exhausted.dbf25c795f74ed7ea9bd.png",
     "static/media/anything-goes.png": "/static/media/anything-goes.40067f88e48e5a5ea2c2.png",
     "static/media/when-together.png": "/static/media/when-together.9dc045668108c81f46fe.png",
@@ -77,10 +78,10 @@
     "index.html": "/index.html",
     "static/media/upright-arrow.svg": "/static/media/upright-arrow.253ed258555c51bb6fc7a514f0d03039.svg",
     "main.2517280f.css.map": "/static/css/main.2517280f.css.map",
-    "main.f827d8cf.js.map": "/static/js/main.f827d8cf.js.map"
+    "main.0f9fc786.js.map": "/static/js/main.0f9fc786.js.map"
   },
   "entrypoints": [
     "static/css/main.2517280f.css",
-    "static/js/main.f827d8cf.js"
+    "static/js/main.0f9fc786.js"
   ]
 }
